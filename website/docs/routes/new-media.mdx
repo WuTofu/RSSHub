@@ -1704,11 +1704,15 @@ Compared to the official one, this feed:
 
 <Route author="WhiteWorld nczitzk Fatpandac" example="/readhub" path="/readhub/:category?" paramsDesc={['分类，见下表，默认为热门话题']} radar="1">
 
-| 热门话题 | 每日早报 | 科技动态 | 医疗产业 |
-| -------- | -------- | -------- | -------- |
-|          | daily    | news     | medical  |
+| 热门话题 | 科技动态 | 医疗产业    | 财经快讯              |
+| ---- | ---- | ------- | ----------------- |
+|      | news | medical | financial_express |
 
 </Route>
+
+### 每日早报 {#readhub-mei-ri-zao-bao}
+
+<Route author="nczitzk" example="/readhub/daily" path="/readhub/daily" radar="1"/>
 
 ## Sakamichi Series 坂道系列官网资讯 {#sakamichi-series-ban-dao-xi-lie-guan-wang-zi-xun}
 
@@ -1990,7 +1994,7 @@ Member ID
 
 ### News {#techcrunch-news}
 
-<Route author="NavePnow" example="/techcrunch/news" path="/techcrunch/news"/>
+<Route author="EthanWng97" example="/techcrunch/news" path="/techcrunch/news"/>
 
 ## TechPowerUp {#techpowerup}
 
@@ -4815,6 +4819,12 @@ column 为 third 时可选的 category:
 
 </Route>
 
+## 米课 {#mi-ke}
+
+### 米课圈精华 {#mi-ke-mi-ke-quan-jing-hua}
+
+<Route author="nczitzk" example="/imiker/ask/jinghua" path="/imiker/ask/jinghua" radar="1"/>
+
 ## 摩点 {#mo-dian}
 
 ### 众筹 {#mo-dian-zhong-chou}
@@ -5769,7 +5779,7 @@ column 为 third 时可选的 category:
 
 ### 公众号（搜狗来源） {#wei-xin-gong-zhong-hao-sou-gou-lai-yuan}
 
-<Route author="NavePnow" example="/wechat/sogou/qimao0908" path="/wechat/sogou/:id" paramsDesc={['公众号 id, 打开 weixin.sogou.com 并搜索相应公众号， 在 URL 中找到 id']} notOperational="1"/>
+<Route author="EthanWng97" example="/wechat/sogou/qimao0908" path="/wechat/sogou/:id" paramsDesc={['公众号 id, 打开 weixin.sogou.com 并搜索相应公众号， 在 URL 中找到 id']} notOperational="1"/>
 
 ## 维基百科 {#wei-ji-bai-ke}
 
